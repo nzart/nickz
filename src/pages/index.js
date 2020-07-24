@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Herocard from '../components/Herocard';
+import Textandhead from '../components/Textandhead';
 
 
 const IndexPage = () => {
@@ -13,6 +14,9 @@ const IndexPage = () => {
         <title>Home Page</title>
       </Helmet>
       {/* <Container> */}
+
+      <Textandhead />
+
         <h1>Gatsby Sass Starter</h1>
         <h4>Gatsby Sass Starter</h4>
 

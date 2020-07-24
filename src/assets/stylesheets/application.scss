@@ -23,16 +23,13 @@ main {
 
 .wrapper {
   margin: 2rem auto;
-  /* display: flex;
-  flex-flow: column wrap ;
-  // flex-wrap: wrap;
-  // flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
   max-width: 75%;
 
   p {
     width: 75%;
+    @media (max-width: 500px) {
+      width: 100%;
+    }
   }
 }
 
