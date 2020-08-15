@@ -37,13 +37,20 @@
 } */
 
 header {
-
+  top: 0;
   position: fixed;
-  padding: 0 0 0 1.25rem; 
+  padding: 1em 0 0 1.25rem; 
   width: 100%;
+  @media (max-width: 700px) {
+    background-color: #f8f8f8;
+    // padding-bottom: 1em;
+    // padding:1em 0 0 0;
+  }
 
     img {
-      // height: 48px;
-      width: 6%;
+      height: 48px;
+      @media (max-width: 700px) {
+        height: 40px;
+      }
     }
 }

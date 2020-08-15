@@ -21,9 +21,18 @@ main {
   padding: 2em 0;
 } */
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
 .wrapper {
   margin: 2rem auto;
   max-width: 75%;
+  @media (max-width: 700px) {
+    padding-top: 60px;
+  }
 
   p {
     width: 75%;
@@ -33,7 +42,3 @@ main {
   }
 }
 
-body {
-  margin: 0;
-  background-color: #f8f8f8;
-}
