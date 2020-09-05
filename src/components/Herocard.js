@@ -1,17 +1,17 @@
 import React from 'react'
-// import nyc from 'assets/images/bkbridge.jpg' 
-import mount from 'assets/images/mountain.jpg' 
+/* import nyc from 'assets/images/bkbridge.jpg' 
+import mount from 'assets/images/mountain.jpg'  */
 
-const Herocard = () => {
+const Herocard = (props) => {
     return (
 
         <div className='card_hero'>
-            <img src={mount} alt="ESB" />
+            <img src={props.imgSrc} alt={props.altTag} />
 
             <div className='card_desc'>
-                <h1>Hello</h1>
+                <h1>{props.title}</h1>
                 {/* <h2>Hello</h2> */}
-                <p>App Design</p>
+                <p>{props.desc}</p>
             </div>
             
 

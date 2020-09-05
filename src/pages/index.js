@@ -5,6 +5,9 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Herocard from '../components/Herocard';
 
+import nyc from 'assets/images/bkbridge.jpg' 
+import mount from 'assets/images/mountain.jpg' 
+
 
 const IndexPage = () => {
   return (
@@ -17,8 +20,8 @@ const IndexPage = () => {
         <h1>Sup Fuckers?</h1>
 
         <div className="Herogallery">
-          <Herocard />
-          <Herocard />
+          <Herocard imgSrc={nyc} altTag="New Yawk" title="Traveler" desc="App Design" />
+          <Herocard imgSrc={mount} altTag="Mountain" title="Crown Of Red" desc="Branding" />
         </div>
 
       </Container>  
