@@ -33,12 +33,12 @@ body {
   @media (max-width: 700px) {
     padding-top: 60px;
   }
+}
 
-  p {
-    width: 75%;
-    @media (max-width: 500px) {
-      width: 100%;
-    }
-  }
+.Herogallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
