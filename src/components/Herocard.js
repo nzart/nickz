@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from 'gatsby'
 /* import nyc from 'assets/images/bkbridge.jpg' 
 import mount from 'assets/images/mountain.jpg'  */
 
 const Herocard = (props) => {
     return (
-
-        <div className='card_hero'>
+        <Link to={props.page} className='card_hero'>
+        {/* <Link to={props.page}> */}
+        {/* <div className='card_hero'> */}
             <img src={props.imgSrc} alt={props.altTag} />
 
             <div className='card_desc'>
@@ -15,7 +17,7 @@ const Herocard = (props) => {
             </div>
             
 
-        </div>
+        </Link>
     )
 }
 

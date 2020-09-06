@@ -20,8 +20,8 @@ const IndexPage = () => {
         <h1>Sup Fuckers?</h1>
 
         <div className="Herogallery">
-          <Herocard imgSrc={nyc} altTag="New Yawk" title="Traveler" desc="App Design" />
-          <Herocard imgSrc={mount} altTag="Mountain" title="Crown Of Red" desc="Branding" />
+          <Herocard page="/traveler" imgSrc={nyc} altTag="New Yawk" title="Traveler" desc="App Design" />
+          <Herocard page="/" imgSrc={mount} altTag="Mountain" title="Crown Of Red" desc="Branding" />
         </div>
 
       </Container>  
