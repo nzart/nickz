@@ -11,7 +11,8 @@ const Herocard = (props) => {
             <img src={props.imgSrc} alt={props.altTag} />
 
             <div className='card_desc'>
-                <h1>{props.title}</h1>
+                <h2>{props.title}</h2>
+                {/* <h1>{props.title}</h1> */}
                 {/* <h2>Hello</h2> */}
                 <p>{props.desc}</p>
             </div>
