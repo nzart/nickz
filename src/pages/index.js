@@ -5,8 +5,9 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Herocard from '../components/Herocard';
 
-import nyc from 'assets/images/bkbridge.jpg' 
-import mount from 'assets/images/mountain.jpg' 
+import nyc from 'assets/images/bkbridge.jpg'; 
+import mount from 'assets/images/mountain.jpg';
+import hello from 'assets/images/hello.svg'
 
 
 const IndexPage = () => {
@@ -15,7 +16,9 @@ const IndexPage = () => {
       <Helmet>
         <title>Home Page</title>
       </Helmet>
+
       <Container>
+      <img className="hello" src={hello} />
 
         <h1>Sup Fuckers?</h1>
 
