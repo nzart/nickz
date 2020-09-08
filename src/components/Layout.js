@@ -22,7 +22,8 @@ const Layout = ({ children, pageName }) => {
       </Helmet>
       {/* <div className="wrapper"> */}
         <Header />
-          <div className="wrapper">{ children }</div>
+          <div>{ children }</div>
+          {/* <div className="wrapper">{ children }</div> */}
         {/* <main>{ children }</main> */}
         <Footer />
       {/* </div> */}
