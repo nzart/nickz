@@ -6,10 +6,10 @@ import Container from 'components/Container';
 import Herocard from '../components/Herocard';
 
 import mount from 'assets/images/mountain.jpg';
-import hello from 'assets/images/hello.svg'
-import travelhome from 'assets/images/homepage/travelerredux.png'
-import templehome from 'assets/images/homepage/temple.png'
-import corhome from 'assets/images/homepage/corthumb.png'
+import hello from 'assets/images/hello.svg';
+import travelhome from 'assets/images/homepage/travelerredux.png';
+import templehome from 'assets/images/homepage/temple.png';
+import corhome from 'assets/images/homepage/corthumb.png';
 
 
 const IndexPage = () => {
@@ -28,8 +28,8 @@ const IndexPage = () => {
 
             <div className="Herogallery">
               <Herocard page="/traveler" imgSrc={travelhome} altTag="Traveler App" title="Traveler" desc="App Design" />
-              <Herocard page="/" imgSrc={templehome} altTag="Mountain" title="Temple" desc="Branding" />
-              <Herocard page="/" imgSrc={corhome} altTag="Mountain" title="Crown Of Red" desc="Branding" />
+              <Herocard page="/" imgSrc={templehome} altTag="Temple" title="Temple" desc="Branding" />
+              <Herocard page="/crownofred" imgSrc={corhome} altTag="Crown of Red" title="Crown Of Red" desc="Branding" />
               <Herocard page="/" imgSrc={mount} altTag="Mountain" title="Fitness" desc="App Design" />
               <Herocard page="/" imgSrc={mount} altTag="Mountain" title="About" desc="My Life" />
               <Herocard page="/" imgSrc={mount} altTag="Mountain" title="Contact" desc="Slide in the DMs" />
