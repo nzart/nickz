@@ -13,7 +13,7 @@ import graphics from 'assets/images/fit/graphics.png';
 
 const HealthPage = () => {
   return (
-    <Layout pageName="crownofred">
+    <Layout pageName="threestepshealth">
       <Helmet>
           <title>Three Steps</title>
       </Helmet>
