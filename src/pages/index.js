@@ -30,7 +30,7 @@ const IndexPage = () => {
               <Herocard page="/traveler" imgSrc={travelhome} altTag="Traveler App" title="Traveler" desc="App Design" />
               <Herocard page="/" imgSrc={templehome} altTag="Temple" title="Temple" desc="Branding" />
               <Herocard page="/crownofred" imgSrc={corhome} altTag="Crown of Red" title="Crown Of Red" desc="Branding" />
-              <Herocard page="/" imgSrc={mount} altTag="Mountain" title="Fitness" desc="App Design" />
+              <Herocard page="/health" imgSrc={mount} altTag="Mountain" title="Fitness" desc="App Design" />
               <Herocard page="/" imgSrc={mount} altTag="Mountain" title="About" desc="My Life" />
               <Herocard page="/" imgSrc={mount} altTag="Mountain" title="Contact" desc="Slide in the DMs" />
             </div>
