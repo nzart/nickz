@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Textandhead from '../components/Textandhead';
+import Herotext from 'components/Herotext';
 
 import hero from 'assets/images/temple/templehero.png';
 import draft from 'assets/images/temple/templedraft.png';
@@ -20,10 +21,7 @@ const TemplePage = () => {
 
         <div className="wrapper">
 
-          <div className="heroText">
-            <h1>Temple</h1>
-            <h2>Faith and fitness</h2>
-          </div>
+          <Herotext main="Temple" sub="Faith and fitness" />
 
         </div>
           <img src={hero} alt="temple hero" className="heroImg" />

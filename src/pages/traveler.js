@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Textandhead from '../components/Textandhead';
+import Herotext from 'components/Herotext';
 
 import hero from 'assets/images/traveler/travelhero.png';
 import firstWire from 'assets/images/traveler/travelerFirstWire.png';
@@ -20,10 +21,7 @@ const TravelerPage = () => {
 
         <div className="wrapper">
 
-          <div className="heroText">
-            <h1>Traveler</h1>
-            <h2>The Itinerary App</h2>
-          </div>
+          <Herotext main="Traveler" sub="The Itinerary App" />
 
         </div>
           <img src={hero} alt="Travler hero" className="heroImg" />

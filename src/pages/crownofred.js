@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Textandhead from '../components/Textandhead';
+import Herotext from 'components/Herotext';
 
 import hero from 'assets/images/cor/coffeehero.jpg';
 import styleguide from 'assets/images/cor/styleguide.png';
@@ -21,10 +22,7 @@ const CORPage = () => {
 
         <div className="wrapper">
 
-          <div className="heroText">
-            <h1>Crown of Red</h1>
-            <h2>Coffee, motherfucker</h2>
-          </div>
+        <Herotext main="Crown of Red" sub="Coffee and community" />
 
         </div>
           <img src={hero} alt="Crown of Red hero" className="heroImg" />
